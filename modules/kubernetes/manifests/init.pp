@@ -5,3 +5,4 @@ class kubernetes {
     enabled  => 1,
     gpgcheck => 0
   }
+}
