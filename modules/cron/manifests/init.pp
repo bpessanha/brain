@@ -11,7 +11,7 @@ class cron {
         ensure  => present,
         command => "cd /root/brain ; /usr/bin/git pull",
         user    => root,
-        minute  => '*/5',
+        minute  => '*',
         require => File['post-hook'],
     }
 }
