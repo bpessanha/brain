@@ -1,3 +1,4 @@
 node default {
-    include cron
+  include cron
+  include packages
 }
