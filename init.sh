@@ -3,4 +3,4 @@
 yum update -y
 yum install -y puppet
 cd /root/brain/ ; git pull
-puppet apply --modulepath /root/brain/modules/ /root/brain/site.pp
+/usr/bin/puppet apply --modulepath /root/brain/modules/ --logdest /var/log/puppet/puppet.log /root/brain/site.pp
