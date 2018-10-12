@@ -2,5 +2,4 @@
 
 yum update -y
 yum install -y puppet
-mv /etc/puppet/ /etc/puppet-bak/
-puppet apply /etc/puppet/manifests/site.pp
+puppet apply /root/brain/site.pp
