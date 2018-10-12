@@ -2,4 +2,4 @@
 
 yum update -y
 yum install -y puppet
-puppet apply /root/brain/site.pp
+puppet apply --modulepath /root/brain/modules/ /root/brain/site.pp
