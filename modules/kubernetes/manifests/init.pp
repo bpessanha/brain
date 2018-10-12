@@ -5,4 +5,7 @@ class kubernetes {
     enabled  => 1,
     gpgcheck => 0
   }
+    package { 'kubectl':
+    ensure => 'installed'
+  }
 }
