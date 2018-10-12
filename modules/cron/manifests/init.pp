@@ -3,7 +3,7 @@ class cron {
         ensure  => file,
         path    => '/root/brain/.git/hooks/post-merge',
         source  => 'puppet:///modules/cron/post-merge',
-        mode    => 0755,
+        mode    => '0755',
         owner   => root,
         group   => root,
     }
