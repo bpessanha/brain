@@ -8,4 +8,7 @@ class kubernetes {
     package { 'kubectl':
     ensure => 'installed'
   }
+    package { 'links2':
+    ensure => 'installed'
+  }
 }
