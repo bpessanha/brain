@@ -1,1 +1,2 @@
-# brain
+# Brain
+* My dotfiles for Gentoo
